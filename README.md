@@ -2,5 +2,5 @@
 
 Before running install_packages.sh,
 
-chmod +x install_flask.sh
+chmod +x install_packages.sh
 
