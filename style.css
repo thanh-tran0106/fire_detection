@@ -1,0 +1,17 @@
+/* /home/pi/Documents/RpiFlaskServer/static/style.css */
+body {
+    background: black;
+    color: yellow;
+}
+ 
+.button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #E74C3C;
+  color: #ECF0F1;
+  padding: 3px 5px 3px 5px;
+  border-top: 1px solid #FDFEFE;
+  border-right: 1px solid #FDFEFE;
+  border-bottom: 1px solid #FDFEFE;
+  border-left: 1px solid #FDFEFE;
+}
