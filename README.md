@@ -9,7 +9,7 @@ Then to run the run.py
 ```
 python3 run.py
 ```
-In the run.py you can change the number of ledred, ledbl base on the sensors you use.<br>
+In the run.py you can change the number of ledRed, ledbl base on the sensors you use.<br>
 
 
 
