@@ -1,0 +1,37 @@
+<!-- /home/pi/Documents/RpiFlaskServer/templates/index.html -->
+ 
+ 
+<!DOCTYPE html>
+   <head>
+      <title>Fire Detection Sensor Reading</title>
+      <link rel="stylesheet" href='../static/style.css'/>
+   </head>
+ 
+   <body>
+        <h1 align=center>Sensor Reading</h1>
+        <h2> Room Temperature Monitor </h2>
+        <h3> Temperature  : {{ temperature  }} C</h3>
+        <h3> Humidity     :    {{ humidity  }} %</h3>
+        <br>
+         
+        <h2> LED Status </h2>
+         
+        <h3> RED LED ---  {{ ledRed  }}  ---  
+            {% if  ledRed   == 1 %}
+                <a href="/ledRed/off"class="button">TURN OFF</a>
+            {% else %}
+                <a href="/ledRed/on" class="button">TURN ON</a> 
+            {% endif %} 
+        </h3>
+         
+        <h3> BLUE LED ---  {{ ledbl  }}  --- 
+            {% if  ledbl   == 1 %}
+                <a href="/ledbl/off"class="button">TURN OFF</a>
+            {% else %}
+                <a href="/ledbl/on" class="button">TURN ON</a> 
+            {% endif %} 
+        </h3>
+         
+         
+   </body>
+</html>
